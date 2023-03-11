@@ -15,11 +15,11 @@ function ReadInput(){
     return(
         <div>
             <h1>Read Input!!</h1>
-            <label>firstName :</label>
+            <label>firstName input :</label>
             <input type='text' name="firstName" onChange={handleFirstInput}/>
-            <label>lastName :</label>
-            <input type='text' name="lastName" onChange={handleSecondInput}/>
             <p>FirstName: {firstName}</p>
+            <label>lastName input  :</label> <br></br>
+            <input type='text' name="lastName" onChange={handleSecondInput}/>
             <p>LastName: {lastName}</p>
         </div>
     )

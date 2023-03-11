@@ -1,4 +1,5 @@
  import React ,{useState }from "react";
+ 
 function IncDec(){
     const[number,setnumber]=useState(0);
 
@@ -13,8 +14,8 @@ function IncDec(){
     return(
         <div><p>by using functional component</p>
         <p>number is: {number}</p>
-        <button type="button" onClick={increment}>add</button>
-        <button type="button" onClick={decrement}>sub</button>
+        <button type="button" onClick={increment}>buttonAdd</button><br></br>
+        <button type="button" onClick={decrement}>buttonSub</button>
         </div>
     )
 }

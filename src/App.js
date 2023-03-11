@@ -1,34 +1,20 @@
 import logo from './logo.svg';
 import './App.css';
-// import Demo from './Demo';
-// import IncDec from './Component/IncDec';
-// import Car from './Component/function';
+// import ReadInput from './Component/ReadInput';
+// import ReactRouter from './ReactRouterr/ReactRouter';
+// import Assignment from './Component/Assignment';
 // import Header ,{Footer} from './Component/Header';
-//  import Student from './Props/Student';
-// import ClassIncDec from './Component/ClassIncDec';
-// import ReadInput from './ReadInput';
-// import DisplayData from './Component/DisplayData';
-//  import ComponentLifeCycle from './Component/ComponentLifeCycle';
-// import UseEffectDemo from './Component/UseEffectDemo';
-import ApiCallUseEffect from './Component/ApiCallUseEffect';
+import Main from './ReactRouterr/Main';
 
 function App() {
   return (
 <div>
-    {/* <Demo/> */}
-    {/* <IncDec/> */}
-  
-     {/* <Header/>
-    <Footer/> */}
-     {/* <Student/>  */}
-    {/* <Car/> */}
-    {/* <ClassIncDec/> */}
-    {/* <ReadInput/> */}
-    {/* <DisplayData/> */}
-    {/* <ComponentLifeCycle/> */}
-  {/* <UseEffectDemo/> */}
-  <ApiCallUseEffect/>
+  {/* <ReactRouter/> */}
+{/* <Assignment/> */}
+{/* <ReadInput/> */}
+<Main/>
   </div>
+  
   );
     
   
